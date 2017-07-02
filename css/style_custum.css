@@ -1,0 +1,754 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,500,700");
+/*
+ *
+ *   LABNETTINGS  - Web platform for Management & Collaboration in science
+ *   Beta version
+ *
+*/
+body {
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white;
+}
+body.full-height-layout #wrapper {
+    height: 30px;
+    display: block;
+    margin: 0px;
+    padding: 10px;
+}
+.navbar-wrapper .nav li a,
+.navbar-default .nav li a {
+    color: #676a6c;
+}
+.navbar-wrapper .nav li a:active,
+.navbar-default .nav li a:active,
+.navbar-wrapper .nav li a:hover,
+.navbar-default .nav li a:hover {
+    color: #2794b3;
+    background-color: #e7eaec;
+}
+.navbar-wrapper .nav li a:visited,
+.navbar-default .nav li a:visited {
+    background-color: #e7eaec;
+}
+.nav-label .active {
+    color: #2794b3;
+}
+.navbar-static-side {
+    height: 100%;
+}
+.nav-header,
+.nav-header:hover,
+.navbar-default.navbar-static-side,
+.navbar-default.navbar-static-side:hover {
+    background: #e7eaec;
+}
+body.boxed-layout #wrapper {
+    background-color: #e7eaec;
+}
+.navbar-wrapper-base,
+.navbar-default-pages {
+    background-color: #fff;
+    border-color: #e7eaec;
+    padding-top: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e7eaec;
+    border-radius: 0;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.navbar-wrapper-base .nav li a,
+.navbar-default-pages .nav li a {
+    color: #676a6c;
+    background-color: #fff;
+}
+.navbar-wrapper-base .nav li a:hover,
+.navbar-default-pages .nav li a:hover {
+    color: #2794b3;
+    background-color: #fff
+}
+.navbar-base,
+.navbar-pages {
+    color: #676a6c;
+}
+.navbar-static-top {
+    height: 45px;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #2794b3;
+    outline: 0;
+}
+.minimalize-styl-2 {
+    padding: 4px 12px;
+    margin-right: 22px;
+    font-size: 14px;
+    float: left;
+    vertical-align: top;
+}
+.fixed-nav .minimalize-styl-2 {
+    margin: 10px;
+}
+body.rtls .minimalize-styl-2 {
+    float: right;
+    margin: 10px;
+}
+.profile-element {
+    margin: 30px;
+    align-self: center;
+}
+.nav > li.active {
+    border-left: 4px solid #1f758e;
+}
+.nav-header {
+    padding: 10px 10px;
+    background-color: #e7eaec;
+    height: 170px;
+}
+.pace-done .nav-header {
+    transition: all 0.4s;
+}
+.nav > li.active {
+    border-left: 4px solid #1f758e;
+    background: #e7eaec;
+}
+.nav .metismenu > li.active {
+    background-color: #e7eaec;
+    color: #2794b3;
+}
+.mini-navbar .nav .nav-second-level {
+    background-color: #e7eaec;
+}
+body.canvas-menu nav.navbar-static-side > li > a:visited,
+body.canvas-menu nav.navbar-static-side {
+    background: #e7eaec;
+}
+.sidebar-container ul.nav-tabs li a {
+    background: #e7eaec;
+    color: #fff;
+    border-right: 1px solid #334556;
+}
+.navbar-default .special_link a {
+    background: #2794b3;
+}
+.navbar-default .special_link a:hover {
+    background: #1f758e !important;
+    color: white;
+}
+.navbar-default .special_link a span.label {
+    background: #fff;
+    color: #2794b3;
+}
+.navbar-default .landing_link a {
+    background: #2794b3;
+    color: white;
+}
+.navbar-default .landing_link a:hover {
+    background: #2794b3 !important;
+    color: white;
+}
+.navbar-default .landing_link a span.label {
+    background: #fff;
+    color: #2794b3;
+}
+.navbar-form-custom .form-control {
+    height: 45px;
+}
+.navbar-top-links li a {
+    min-height: 45px;
+    height: 45px;
+    vertical-align: middle;
+}
+body.mini-navbar .nav-header {
+    background-color: #2794b3;
+}
+.top-navigation .navbar-nav .dropdown-menu > .active > a {
+    color: #2794b3;
+}
+.top-navigation .nav > li a:hover,
+.top-navigation .nav > li a:focus {
+    color: #2794b3;
+}
+.top-navigation .nav > li.active > a {
+    color: #2794b3;
+}
+.top-navigation .navbar-brand {
+    background: #2794b3;
+}
+.navbar-toggle {
+    background-color: #2794b3;
+}
+.btn-primary.btn-outline {
+    color: #2794b3;
+}
+.btn-primary {
+    background-color: #2794b3;
+    border-color: #2794b3;
+    color: #FFFFFF;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.btn-primary.active:focus {
+    background-color: #1f758e;
+    border-color: #1f758e;
+    color: #FFFFFF;
+}
+.btn-primary.disabled,
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled],
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:active,
+.btn-primary.active[disabled],
+fieldset[disabled] .btn-primary,
+fieldset[disabled] .btn-primary:hover,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:active,
+fieldset[disabled] .btn-primary.active {
+    background-color: #2794b3;
+    border-color: #2794b3;
+}
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active,
+.btn-link.active,
+.open .dropdown-toggle.btn-link {
+    color: #2794b3;
+}
+button.btn-primary.dim {
+    box-shadow: inset 0 0 0 #1f758e, 0 5px 0 0 #1f758e, 0 10px 5px #999999;
+}
+button.btn-primary.dim:active {
+    box-shadow: inset 0 0 0 #1f758e, 0 2px 0 0 #1f758e, 0 5px 3px #999999;
+}
+button.btn-default.dim {
+    box-shadow: inset 0 0 0 #b3b3b3, 0 5px 0 0 #b3b3b3, 0 10px 5px #999999;
+}
+button.btn-default.dim:active {
+    box-shadow: inset 0 0 0 #b3b3b3, 0 2px 0 0 #b3b3b3, 0 5px 3px #999999;
+}
+.label-primary,
+.badge-primary {
+    background-color: #2794b3;
+    color: #FFFFFF;
+}
+.divider {
+    padding: 10px 25px;
+}
+/* FOOTER */
+.footer {
+    width: 100%;
+    height: 35px;
+    display: block;
+    position: relative;
+    align-self: baseline;
+    background: white;
+}
+/* TOOLTIPS */
+/* TOOGLE SWICH */
+.onoffswitch-inner:before {
+    background-color: #2794b3;
+}
+.onoffswitch-switch {
+    border: 2px solid #2794b3;
+}
+/* CHOSEN PLUGIN */
+.fc-state-active {
+    background-color: #2794b3;
+    border-color: #2794b3;
+}
+.fc-event,
+.fc-agenda .fc-event-time,
+.fc-event a {
+    background-color: #2794b3;
+    /* background color */
+    border-color: #2794b3;
+    /* border color */
+}
+/* Chat */
+/* LIST GROUP */
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+    background-color: #2794b3;
+    border-color: #2794b3;
+}
+/* FLOT CHART  */
+/* DATATABLES */
+/* CIRCLE */
+.pace .pace-progress {
+    background: #2794b3;
+}
+/* WIDGETS */
+/* INPUTS */
+.form-control:focus,
+.single-line:focus {
+    border-color: #2794b3 !important;
+}
+.noUi-connect {
+    background: none repeat scroll 0 0 #2794b3;
+}
+/* UI Sortable */
+/* SWITCHES */
+.onoffswitch-label {
+    border: 2px solid #2794b3;
+}
+.onoffswitch-inner:before {
+    background-color: #2794b3;
+}
+.onoffswitch-switch {
+    border: 2px solid #2794b3;
+}
+/* jqGrid */
+/* Nestable list */
+/**
+* Nestable Extras
+*/
+/* CodeMirror */
+.toast {
+    background-color: #2794b3;
+}
+/* Notifie */
+/* Image cropper style */
+.forum-item.active .fa {
+    color: #2794b3;
+}
+.forum-item.active a.forum-item-title {
+    color: #2794b3;
+}
+/* New Timeline style */
+.vertical-date small {
+    color: #2794b3;
+}
+/* jsvectormap */
+.jvectormap-zoomin,
+.jvectormap-zoomout,
+.jvectormap-goback {
+    background: #2794b3;
+}
+/*Slick Carousel */
+.slick-prev:before,
+.slick-next:before {
+    color: #2794b3 !important;
+}
+/* Payments */
+/* Select2 custom styles */
+/* Tour */
+/* Resizable */
+/* Wizard step fix */
+/* PDF js style */
+/* Dropzone */
+.dropzone {
+    border: 1px dashed #2794b3;
+}
+/* GALLERY */
+/* Summernote text editor  */
+/* MODAL */
+/* WRAPPERS */
+.branding {
+    background-color: #2794b3;
+}
+.navy-bg,
+.bg-success {
+    background-color: #2794b3;
+}
+.panel-primary {
+    border-color: #2794b3;
+}
+.panel-primary > .panel-heading {
+    background-color: #2794b3;
+    border-color: #2794b3;
+}
+.progress-bar {
+    background-color: #2794b3;
+}
+.progress-bar-navy-light {
+    background-color: #2794b3;
+}
+/* COLORS */
+.text-navy {
+    color: #2794b3;
+}
+/* For handle diferent bg color in AngularJS version */
+/* For handle diferent bg color in MVC version */
+/* FULL HEIGHT */
+/* MARGINS & PADDINGS */
+/* Show profile dropdown on fixed sidebar */
+/* SEARCH PAGE */
+#top-search {
+    text-align: center;
+}
+/* CONTACTS */
+/* INVOICE */
+/* ERROR & LOGIN & LOCKSCREEN*/
+/* DASBOARD */
+/* Intimeline */
+/* PIN BOARD */
+/* FILE MANAGER */
+.category-list li a .text-navy {
+    color: #2794b3;
+}
+.file-list li a:hover {
+    color: #2794b3;
+}
+/* MAILBOX */
+/* PROJECTS */
+/* FAQ */
+/* Chat view */
+/* jsTree */
+/* CLIENTS */
+/* BLOG ARTICLE */
+/* ISSUE TRACKER */
+.issue-tracker .btn-link {
+    color: #2794b3;
+}
+/* TEAMS */
+/* AGILE BOARD */
+/* DIFF */
+/* E-commerce */
+.product-name:hover,
+.product-name:focus {
+    color: #2794b3;
+}
+.product-price {
+    background-color: #2794b3;
+}
+.vote-actions a {
+    color: #2794b3;
+}
+.vote-info a:hover {
+    color: #2794b3;
+}
+.vote-icon.active {
+    color: #2794b3;
+}
+.open-small-chat {
+    background: #2794b3;
+}
+.open-small-chat:hover {
+    background: #2794b3;
+}
+.small-chat-box .content .chat-message.active {
+    background: #2794b3;
+}
+/*
+ * metismenu - v2.0.2
+ * A jQuery menu plugin
+ * https://github.com/onokumus/metisMenu
+ *
+ * Made by Osman Nuri Okumus
+ * Under MIT License
+ */
+/*
+ *  Usage:
+ *
+ *    <div class="sk-spinner sk-spinner-rotating-plane"></div>
+ *
+ */
+.sk-spinner-rotating-plane.sk-spinner {
+    background-color: #2794b3;
+}
+/*
+ *  Usage:
+ *
+ *    <div class="sk-spinner sk-spinner-double-bounce">
+ *      <div class="sk-double-bounce1"></div>
+ *      <div class="sk-double-bounce2"></div>
+ *    </div>
+ *
+ */
+.sk-spinner-double-bounce .sk-double-bounce1,
+.sk-spinner-double-bounce .sk-double-bounce2 {
+    background-color: #2794b3;
+}
+/*
+ *  Usage:
+ *
+ *    <div class="sk-spinner sk-spinner-wave">
+ *      <div class="sk-rect1"></div>
+ *      <div class="sk-rect2"></div>
+ *      <div class="sk-rect3"></div>
+ *      <div class="sk-rect4"></div>
+ *      <div class="sk-rect5"></div>
+ *    </div>
+ *
+ */
+.sk-spinner-wave div {
+    background-color: #2794b3;
+}
+/*
+ *  Usage:
+ *
+ *    <div class="sk-spinner sk-spinner-wandering-cubes">
+ *      <div class="sk-cube1"></div>
+ *      <div class="sk-cube2"></div>
+ *    </div>
+ *
+ */
+.sk-spinner-wandering-cubes .sk-cube1,
+.sk-spinner-wandering-cubes .sk-cube2 {
+    background-color: #2794b3;
+}
+/*
+ *  Usage:
+ *
+ *    <div class="sk-spinner sk-spinner-pulse"></div>
+ *
+ */
+.sk-spinner-pulse.sk-spinner {
+    background-color: #2794b3;
+}
+/*
+ *  Usage:
+ *
+ *    <div class="sk-spinner sk-spinner-chasing-dots">
+ *      <div class="sk-dot1"></div>
+ *      <div class="sk-dot2"></div>
+ *    </div>
+ *
+ */
+.sk-spinner-chasing-dots .sk-dot1,
+.sk-spinner-chasing-dots .sk-dot2 {
+    background-color: #2794b3;
+}
+/*
+ *  Usage:
+ *
+ *    <div class="sk-spinner sk-spinner-three-bounce">
+ *      <div class="sk-bounce1"></div>
+ *      <div class="sk-bounce2"></div>
+ *      <div class="sk-bounce3"></div>
+ *    </div>
+ *
+ */
+.sk-spinner-three-bounce div {
+    background-color: #2794b3;
+}
+/*
+ *  Usage:
+ *
+ *    <div class="sk-spinner sk-spinner-circle">
+ *      <div class="sk-circle1 sk-circle"></div>
+ *      <div class="sk-circle2 sk-circle"></div>
+ *      <div class="sk-circle3 sk-circle"></div>
+ *      <div class="sk-circle4 sk-circle"></div>
+ *      <div class="sk-circle5 sk-circle"></div>
+ *      <div class="sk-circle6 sk-circle"></div>
+ *      <div class="sk-circle7 sk-circle"></div>
+ *      <div class="sk-circle8 sk-circle"></div>
+ *      <div class="sk-circle9 sk-circle"></div>
+ *      <div class="sk-circle10 sk-circle"></div>
+ *      <div class="sk-circle11 sk-circle"></div>
+ *      <div class="sk-circle12 sk-circle"></div>
+ *    </div>
+ *
+ */
+.sk-spinner-circle .sk-circle:before {
+    background-color: #2794b3;
+}
+/*
+ *  Usage:
+ *
+ *    <div class="sk-spinner sk-spinner-cube-grid">
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *      <div class="sk-cube"></div>
+ *    </div>
+ *
+ */
+.sk-spinner-cube-grid .sk-cube {
+    background-color: #2794b3;
+}
+/*
+ *  Usage:
+ *
+ *    <div class="sk-spinner sk-spinner-wordpress">
+ *      <span class="sk-inner-circle"></span>
+ *    </div>
+ *
+ */
+.sk-spinner-wordpress.sk-spinner {
+    background-color: #2794b3;
+}
+/*
+ *  Usage:
+ *
+ *    <div class="sk-spinner sk-spinner-fading-circle">
+ *      <div class="sk-circle1 sk-circle"></div>
+ *      <div class="sk-circle2 sk-circle"></div>
+ *      <div class="sk-circle3 sk-circle"></div>
+ *      <div class="sk-circle4 sk-circle"></div>
+ *      <div class="sk-circle5 sk-circle"></div>
+ *      <div class="sk-circle6 sk-circle"></div>
+ *      <div class="sk-circle7 sk-circle"></div>
+ *      <div class="sk-circle8 sk-circle"></div>
+ *      <div class="sk-circle9 sk-circle"></div>
+ *      <div class="sk-circle10 sk-circle"></div>
+ *      <div class="sk-circle11 sk-circle"></div>
+ *      <div class="sk-circle12 sk-circle"></div>
+ *    </div>
+ *
+ */
+.sk-spinner-fading-circle .sk-circle:before {
+    background-color: #2794b3;
+}
+/*
+ *
+ *   INSPINIA Landing Page - Responsive Admin Theme
+ *   Copyright 2014 Webapplayers.com
+ *
+*/
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* PACE PLUGIN
+-------------------------------------------------- */
+    /* CUSTOMIZE THE NAVBAR
+  -------------------------------------------------- */
+    /* Flip around the padding for proper display in narrow viewports */
+    /* BACKGROUNDS SLIDER
+  -------------------------------------------------- */
+    /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+    /* Carousel base class */
+    /* Since positioning the image, we need to help out the caption */
+    /* Declare heights because of positioning of img element */
+    /* Sections
+  ------------------------- */
+    /* Buttons - only primary custom button
+  ------------------------- */
+    /* RESPONSIVE CSS
+  -------------------------------------------------- */
+.landing-page span.navy {
+    color: #2794b3;
+}
+.landing-page a.navy-link {
+    color: #2794b3;
+}
+.landing-page a.navy-link:hover {
+    color: #1f758e;
+}
+.landing-page .navy-line {
+    border-bottom: 2px solid #2794b3;
+}
+.landing-page .navbar-default .navbar-nav > .active > a,
+.landing-page .navbar-default .navbar-nav > .active > a:hover {
+    border-top: 6px solid #2794b3;
+}
+.landing-page .navbar-default .navbar-nav > li > a:hover,
+.landing-page .navbar-default .navbar-nav > li > a:focus {
+    color: #2794b3;
+}
+.landing-page .navbar-default .navbar-brand:hover,
+.landing-page .navbar-default .navbar-brand:focus {
+    background: #1f758e;
+}
+.landing-page .navbar-default .navbar-brand {
+    background: #2794b3;
+}
+.landing-page .navbar-scroll.navbar-default .nav li a:hover {
+    color: #2794b3;
+}
+.landing-page .navbar-default .navbar-nav > .active > a,
+.landing-page .navbar-default .navbar-nav > .active > a:hover {
+    border-top: 6px solid #2794b3;
+}
+.landing-page .features small {
+    color: #2794b3;
+}
+.landing-page .features-icon {
+    color: #2794b3;
+}
+.landing-page .navy-section {
+    background: #2794b3;
+}
+.landing-page .social-icon a {
+    background: #2794b3;
+}
+.landing-page .social-icon a:hover {
+    background: #1f758e;
+}
+.landing-page .pricing-plan .pricing-price span {
+    color: #2794b3;
+}
+.landing-page li.pricing-title {
+    background: #2794b3;
+}
+.landing-page .testimonials {
+    background-color: #2794b3;
+}
+.landing-page .features .big-icon {
+    color: #2794b3 !important;
+}
+.landing-page .btn-primary {
+    background-color: #2794b3;
+    border-color: #2794b3;
+}
+.landing-page .btn-primary:hover,
+.landing-page .btn-primary:focus,
+.landing-page .btn-primary:active,
+.landing-page .btn-primary.active,
+.landing-page .open .dropdown-toggle.btn-primary {
+    background-color: #1f758e;
+    border-color: #1f758e;
+}
+    .landing-page .navbar-default .nav li a:hover {
+        color: #2794b3;
+    }
+/*
+ *
+ *   This is style for skin config
+ *   Use only in demo theme
+ *
+*/
+.spin-icon {
+    background: #2794b3;
+}
+/*
+ *
+ *   SKIN 3 - INSPINIA - Responsive Admin Theme
+ *   NAME - Yellow/purple
+ *
+*/
+.md-skin .navbar-fixed-top,
+.md-skin .navbar-static-top {
+    background-color: #2794b3 !important;
+}
+.md-skin.landing-page .navbar-default .navbar-nav > li > a:hover,
+.md-skin.landing-page .navbar-default .navbar-nav > li > a:focus {
+    color: #2794b3;
+}
+.md-skin.top-navigation .nav > li a:hover,
+.md-skin .top-navigation .nav > li a:focus,
+.md-skin.top-navigation .nav .open > a,
+.md-skin.top-navigation .nav .open > a:hover,
+.md-skin.top-navigation .nav .open > a:focus {
+    color: #2794b3;
+}
+.md-skin.top-navigation .nav > li.active a {
+    color: #2794b3;
+}
+/* Only demo */
+
+#page-wrapper {
+    min-height: auto;
+}
